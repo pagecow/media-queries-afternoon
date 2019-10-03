@@ -59,13 +59,6 @@ body {
   
 }
 
-@media (max-width: 1000px) {
-  .headline-2 {
-    margin-left: 20%;
-    margin-right: 20%
-  }
-}
-
 .body-button {
   color: white;
   background-color: rgb(242, 205, 59);
@@ -77,4 +70,112 @@ body {
   width: 250px;
   border-radius: 6px;
   border: 0px;
+}
+
+.menu-button {
+  color: white;
+  background-color: rgb(242, 205, 59);
+  font-family: arial;
+  font-weight: 900;
+  font-size:15px;
+  /* margin-left: 40%; */
+  height: 40px;
+  width: 90px;
+  border-radius: 6px;
+  border: 0px;
+  align-content: center;
+  justify-content: center;
+}
+
+@media (min-width: 1000px) {
+  #nav {
+    display: flex;
+  }
+  .menu-button {
+    display: none;
+}
+}
+
+@media (max-width: 1000px) {
+  .headline-2 {
+    margin-left: 20%;
+    margin-right: 20%
+  }
+  #nav {
+    display: none;
+  }
+  .menu-button {
+    display: flex;
+  }
+  #header {
+    height: 50px;
+    width: 80%;
+    background-color: black;
+    margin: 0px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .logo {
+    font-size: 20px;
+  }
+  body {
+    width: 100vw;
+  }
+}
+
+@media (max-width: 800px) {
+  .headline-2 {
+    margin-left: 10%;
+    margin-right: 10%
+  }
+  #nav {
+    display: none;
+  }
+  .menu-button {
+    display: flex;
+  }
+  #header {
+    height: 50px;
+    width: 80%;
+    background-color: black;
+    margin: 0px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .logo {
+    font-size: 20px;
+  }
+  body {
+    height: 70vh;
+    width: 100vw;
+    background-size: auto;
+    background-position: center;
+  }
+  .headline-1 {
+    color: white;
+    font-family: serif;
+    font-style: italic;
+    font-size: 25px;
+    font-weight: 900;
+  }
+  
+  .headline-2 {
+    color: white;
+    font-family: arial;
+    font-weight: 900;
+    font-size: 50px;
+  }
+  
+  .body-button {
+    color: white;
+    background-color: rgb(242, 205, 59);
+    font-family: arial;
+    font-weight: 900;
+    font-size: 20px;
+    /* margin-left: 40%; */
+    height: 65px;
+    width: 225px;
+    border-radius: 6px;
+    border: 0px;
+  }
 }

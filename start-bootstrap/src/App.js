@@ -16,6 +16,15 @@ function App() {
             <div className="buttons">TEAM</div>
             <div className="buttons">CONTACT</div>
           </div>
+
+          <select className='menu-button'>
+            <option className="buttons">HOME</option>
+            <option className="buttons">SERVICES</option>
+            <option className="buttons">PORTFOLIO</option>
+            <option className="buttons">ABOUT</option>
+            <option className="buttons">TEAM</option>
+            <option className="buttons">CONTACT</option>
+          </select>
         </header>
 
         <section id='body-2'>
